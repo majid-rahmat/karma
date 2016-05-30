@@ -1,6 +1,131 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
+html {}
+
 body {
-	background-color: LightGray;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
-div {
-	border: 1px, solid, Chocolate;
+
+.center-content {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #fff;
+    width: 100%;
+    height: 55px;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+nav .top-logo {
+    display: inline;
+    width: 25px;
+    margin-top: 5px;
+}
+
+nav .top-menu {
+    float: right;
+}
+
+nav .top-menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav .top-menu .active {
+    font-weight: bold;
+}
+
+header {
+    background: url("http://thinkful-ed.github.io/karma-clone/img/first-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 45.938rem;
+    text-align: center;
+}
+
+header .header-title {
+    margin: 0;
+    padding-top: 150px;
+    color: #fff;
+    font-size: 3em;
+    font-weight: 300;
+}
+
+header .header-subtitle {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+header .header-button {
+    --webkit-appearance: none;
+    background: #d9400e;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    padding: 15px 50px;
+}
+
+main {}
+
+main h2 {
+    text-align: center;
+    margin: 50px 0;
+    font-weight: 300;
+    font-size: 3em;
+}
+
+main .widget {
+    display: inline-block;
+    width: 33.3%;
+    margin-right: -4px;
+    height: 250px;
+    text-align: center;
+}
+
+main .widget img {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+main .widget h3 {
+    font-weight: 300;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+}
+
+footer .copyrights {}
+
+footer .social-icons {
+    padding-left: 0;
+}
+
+footer .social-icons li {
+    display: inline-block;
+    margin-right: 20px;
+    border: 1px solid #444;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+}
+
+footer .social-icons li i {
+    padding-top: 5px;
+}
+
+footer .social-icons li:first-child {
+    color: #00BBFF;
+}
+
+footer .social-icons li:nth-child(2) {
+    color: #175ca1;
 }
